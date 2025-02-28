@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table - KA Table Purple</title>
+    <style>
+        /* KA Table Purple Style */
+        table.ka-table-purple {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        table.ka-table-purple th {
+            background-color: rgba(145, 40, 141, 0.9);
+            color: #ffffff;
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px !important;
+            border: 5px solid #ffffff;
+        }
+        
+        table.ka-table-purple td {
+            background-color: rgba(145, 40, 141, 0.08);
+            border: 5px solid #ffffff;
+            padding: 10px 10px 10px 15px !important;
+            font-size: 1em;
+            vertical-align: top;
+        }
+        
+        table.ka-table-purple .td-heading {
+            border: 5px solid #ffffff;
+            background-color: rgba(145, 40, 141, 0.4);
+            padding: 0px 0px 0px 20px;
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #4c4c4c;
+            vertical-align: middle;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table class="ka-table-purple">
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="td-heading">Heading 1</td>
+                <td>Data 1</td>
+                <td>Data 2</td>
+            </tr>
+            <tr>
+                <td class="td-heading">Heading 2</td>
+                <td>Data 3</td>
+                <td>Data 4</td>
+            </tr>
+            <tr>
+                <td class="td-heading">Heading 3</td>
+                <td>Data 5</td>
+                <td>Data 6</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
